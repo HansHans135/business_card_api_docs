@@ -12,6 +12,7 @@ api網址: https://my.hbot.fun/api</br></br>
 ---
 ## 1. /api/alldata
 </br>
+> get</br>
 回傳所有用戶資訊:</br>
 json:</br>
 </br></br>響應200
@@ -31,6 +32,7 @@ alldata:所有代碼資訊檔案(list)
 ---
 ## 2. /api/user/[id]
 </br>
+> get</br>
 顯示用戶資訊</br>
 json:</br>
 </br></br>響應200
@@ -83,6 +85,7 @@ youtube:yt網址</br>
 ---
 ## 3. /api/code/[code]
 </br>
+> get</br>
 顯示代碼資訊</br>
 json:</br>
 </br></br>響應200
