@@ -18,13 +18,15 @@ json:</br>
 
 ```json
 {
-  "allfilt":["612471739217346561.json","864362079459475477.json"]
+  "alluser":["612471739217346561.json","864362079459475477.json"],
+  "allcode":["hans.json","nana.json"]
 }
 ```
 
 </br>
 json項目:</br>
-allfilt:所有資訊檔案(list)
+allfilt:所有用戶資訊檔案(list)</br>
+alldata:所有代碼資訊檔案(list)
 
 ---
 ## 2. /api/user/[id]
@@ -76,3 +78,30 @@ phone:電話號碼</br>
 title:標題</br>
 web:網頁標題</br>
 youtube:yt網址</br>
+
+
+---
+## 3. /api/code/[code]
+</br>
+顯示代碼資訊</br>
+json:</br>
+</br></br>響應200
+
+```json
+{
+  "page":"777451145592700928"
+}
+```
+
+</br>
+響應404
+
+```json
+{
+  "error":"404",
+}
+```
+
+</br>
+json項目:</br>
+page:要導向的用戶ID</br>
