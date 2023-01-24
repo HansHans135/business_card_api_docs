@@ -10,7 +10,7 @@ api網址: https://my.hbot.fun/api</br></br>
 請將[id]替換成自己的文字(無須加[])</br>
 
 ---
-## 1. /api/alluser
+## 1. /api/alldata
 </br>
 回傳所有用戶資訊:</br>
 json:</br>
