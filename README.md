@@ -1,10 +1,10 @@
 # API文黨
-https://my.hbot.fun
+https://mycard.lol
 ---
 ## 說明:
 </br>
 api響應格式: json</br>
-api網址: https://my.hbot.fun/api</br></br>
+api網址: https://mycard.lol/api</br></br>
 文黨標示說明:</br>
 若遇到[ ]例如 demo.com/api/[id] </br>
 請將[id]替換成自己的文字(無須加[])</br>
@@ -52,7 +52,8 @@ json:</br>
   "phone":"\u7121",
   "title":"\u958b\u767c\u8005",
   "web":"\u95dc\u65bc\u6211-hans",
-  "youtube":"https://www.youtube.com/@hans0805/"
+  "youtube":"https://www.youtube.com/@hans0805/",
+  "webhook_send":"HI HI"
 }
 ```
 
@@ -80,6 +81,7 @@ phone:電話號碼</br>
 title:標題</br>
 web:網頁標題</br>
 youtube:yt網址</br>
+webhook_send:指令/webhook自訂項目(若無設定將不會有值)</br>
 
 
 ---
