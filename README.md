@@ -1,4 +1,4 @@
-# API文黨
+# API文檔
 https://mycard.lol
 ---
 ## 說明:
