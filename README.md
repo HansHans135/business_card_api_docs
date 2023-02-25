@@ -117,12 +117,26 @@ page:要導向的用戶ID</br>
 </br>
 > post</br>
 更改用戶資訊</br>
-json:</br>
+
+
+</br>
+可設定項目(全部可選,用json傳送):</br>
+email:電子郵件</br>
+facebook:fb網址</br>
+info:自我介紹</br>
+instagram:ig網址</br>
+phone:電話號碼</br>
+title:標題</br>
+web:網頁標題</br>
+youtube:yt網址</br>
+webhook_send:指令/webhook自訂項目</br>
+
 </br></br>響應200
 
 ```json
 {
   "ok":["web","info"]
+  #list裡面為成功修改的項目
 }
 ```
 
@@ -143,18 +157,5 @@ json:</br>
   "error":"400",
 }
 ```
-
-
-</br>
-可設定項目(全部可選):</br>
-email:電子郵件</br>
-facebook:fb網址</br>
-info:自我介紹</br>
-instagram:ig網址</br>
-phone:電話號碼</br>
-title:標題</br>
-web:網頁標題</br>
-youtube:yt網址</br>
-webhook_send:指令/webhook自訂項目</br>
 
 
