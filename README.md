@@ -120,7 +120,8 @@ page:要導向的用戶ID</br>
 
 
 </br>
-可設定項目(全部可選,用json傳送):</br>
+可設定項目(未標示表示可選,用json傳送):</br>
+key:apikey(必填)</br>
 email:電子郵件</br>
 facebook:fb網址</br>
 info:自我介紹</br>
