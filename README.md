@@ -81,7 +81,8 @@ phone:電話號碼</br>
 title:標題</br>
 web:網頁標題</br>
 youtube:yt網址</br>
-webhook_send:指令/webhook自訂項目(若無設定將不會有值)</br>
+webhook_send:指令/webhook自訂項目</br>
+(若無設定將不會有值)</br>
 
 
 ---
@@ -110,3 +111,51 @@ json:</br>
 </br>
 json項目:</br>
 page:要導向的用戶ID</br>
+
+---
+## 4. /api/edit/user/[id]
+</br>
+> post</br>
+更改用戶資訊</br>
+json:</br>
+</br></br>響應200
+
+```json
+{
+  "ok":["web","info"]
+}
+```
+
+</br>
+響應403
+
+```json
+{
+  "error":"403",
+}
+```
+
+</br>
+響應400
+
+```json
+{
+  "error":"400",
+}
+```
+
+
+</br>
+可設定項目(全部可選):</br>
+email:電子郵件</br>
+facebook:fb網址</br>
+info:自我介紹</br>
+instagram:ig網址</br>
+name:名子</br>
+phone:電話號碼</br>
+title:標題</br>
+web:網頁標題</br>
+youtube:yt網址</br>
+webhook_send:指令/webhook自訂項目</br>
+
+
