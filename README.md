@@ -151,7 +151,6 @@ email:電子郵件</br>
 facebook:fb網址</br>
 info:自我介紹</br>
 instagram:ig網址</br>
-name:名子</br>
 phone:電話號碼</br>
 title:標題</br>
 web:網頁標題</br>
